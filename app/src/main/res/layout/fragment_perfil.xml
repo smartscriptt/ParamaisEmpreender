@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".PerfilFragment">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bege"
+            app:title="Perfil"
+            app:titleMargin="170dp"
+            app:titleMarginBottom="20dp"
+            app:titleMarginEnd="20dp"
+            app:titleMarginTop="20dp"
+            app:titleTextAppearance="@style/TextAppearance.AppCompat.Large"
+            app:titleTextColor="@color/black" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="109dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/button_bg"
+            android:text="Salvos"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            app:backgroundTint="@color/cinza"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.510"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.417" />
+
+        <TextView
+            android:id="@+id/nome_e"
+            android:layout_width="120dp"
+            android:layout_height="26dp"
+            android:hint="Username"
+            android:textColorHint="@color/black"
+            android:textSize="18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.108"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.127" />
+
+        <TextView
+            android:id="@+id/contato"
+            android:layout_width="105dp"
+            android:layout_height="34dp"
+            android:hint="Biografia"
+            android:textColorHint="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.104"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.183" />
+
+        <Button
+            android:id="@+id/bt_blocos"
+            android:layout_width="109dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/button_bg"
+            android:text="Blocos"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            app:backgroundTint="@color/cinza"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.93"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.417" />
+
+        <Button
+            android:layout_width="109dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/button_bg"
+            android:text="Editar"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            app:backgroundTint="@color/cinza"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.090"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.417" />
+
+        <Button
+            android:id="@+id/btt_pho"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/nutton_imag_prfl"
+            android:text="Foto"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            app:backgroundTint="@color/cinza"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.852"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.128" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="109dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/button_bg"
+            android:text="Catálogos"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            app:backgroundTint="@color/cinza"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.51"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.499" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>

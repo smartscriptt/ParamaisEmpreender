@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/btt_home"
+        android:title="Home"
+        android:icon="@mipmap/icon"
+        app:showAsAction="always"/>
+
+
+    <item
+        android:id="@+id/btt_adici"
+        android:title="Adicionar"
+        android:icon="@mipmap/per"
+        app:showAsAction="always"/>
+
+
+    <item
+        android:id="@+id/btt_perfil"
+        android:title="Perfil"
+        android:icon="@mipmap/item"
+        app:showAsAction="always"/>
+</menu>

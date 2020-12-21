@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".BlocosActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/bpp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bege"
+            app:title="Blocos"
+            app:titleMargin="170dp"
+            app:titleMarginBottom="20dp"
+            app:titleMarginEnd="20dp"
+            app:titleMarginTop="20dp"
+            app:titleTextAppearance="@style/TextAppearance.AppCompat.Large"
+            app:titleTextColor="@color/black" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="124dp"
+        android:layout_height="82dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bpp"
+        app:layout_constraintVertical_bias="0.055">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="124dp"
+        android:layout_height="82dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bpp"
+        app:layout_constraintVertical_bias="0.061">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="124dp"
+        android:layout_height="82dp"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="512dp"
+        android:background="@drawable/button_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.094"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bpp"
+
+        app:layout_constraintVertical_bias="0.426">
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="116dp"
+        android:layout_height="83dp"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Renda de maio"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
+        app:layout_constraintVertical_bias="0.006" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="125dp"
+        android:layout_height="85dp"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Renda de junho"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.807"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:layout_width="126dp"
+        android:layout_height="56dp"
+        android:padding="15dp"
+        android:text="Devedores"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.178"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="55dp"
+        android:layout_height="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.845"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.705"
+        app:srcCompat="@mipmap/mais" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1093045360841",
+    "firebase_url": "https://paramaisempreender.firebaseio.com",
+    "project_id": "paramaisempreender",
+    "storage_bucket": "paramaisempreender.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093045360841:android:48906caea373c9dab69518",
+        "android_client_info": {
+          "package_name": "ifam.com.paramaisempreender"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1093045360841-h897h2ifg828qt5h493lasf8oafu9t9l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ifam.com.paramaisempreender",
+            "certificate_hash": "7a00f937eb1f7ee40f19a9e3306068fe58812e47"
+          }
+        },
+        {
+          "client_id": "1093045360841-9f4o4bfitl4ih6er3sqk79kq4k691d6f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZUW3MxM5Pr3KDTdu76yTzsLUwbqvQnQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1093045360841-9f4o4bfitl4ih6er3sqk79kq4k691d6f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

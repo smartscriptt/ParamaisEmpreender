@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ParaMaisEmpreender</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="text_prin">Olá, seja bem vindo, realize seu login ou cadastro e conheça os recursos e vantagens de ter um organizado para seus negócios</string>
+    <string name="txt_ter">Ao aceitar, voce concorda com nossos Termos de Politica e privacidade</string>
+    <string name="txt_add">Adicione produtos ao seu catálogo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
